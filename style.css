@@ -28,8 +28,24 @@ h6 {
     font-weight: 700;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 47px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: #151414;
+}
+
 p {
-    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #737272;
+    margin-bottom: 1.2rem;
 }
 
 img {
@@ -122,6 +138,10 @@ li {
     margin-bottom: 1rem;
 }
 
+.mt-9 {
+    margin-top: 9rem;
+}
+
 .mt-5 {
     margin-top: 5rem;
 }
@@ -156,6 +176,13 @@ li {
 
 .h-100 {
     height: 100%;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 /************************** Hero CSS ***************************/
@@ -205,6 +232,49 @@ li {
     cursor: pointer;
 }
 
+/*************************** Success CSS  **********************************/
+
+.success {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.success h2 {
+    font-size: 3.5rem;
+    color: #f15b22;
+    margin-bottom: 1rem;
+}
+
+.success p {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.success img {
+    width: 250px;
+    height: 250px;
+}
+
+.success li {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.success ul {
+    width: 50%;
+    margin-top: 3s0px;
+    margin-inline: auto;
+}
+
+/*************************** My Plane CSS  **********************************/
+
+.plan .plan_img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
 /********************************** Watch CSS ******************************/
 
 .watch_info {
@@ -226,6 +296,7 @@ li {
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 1rem;
+    line-height: 3.5rem;
     width: 50%;
 }
 
@@ -254,14 +325,13 @@ li {
 }
 
 .footer .footer_right input {
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     border: 1px solid #fff;
     border-radius: 5px;
-    margin-bottom: 10px;
     background-color: transparent;
     color: #fff;
     display: block;
-    margin-top: 10px;
+    width: 350px;
 }
 
 .footer .footer_right button {
