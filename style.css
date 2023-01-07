@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.icon-color {
+    color: #16d887;
+}
+
+/*************************** Common CSS ****************************/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center-all * {
+    text-align: center;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
+.mb-5 {
+    margin-bottom: 5rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-4 {
+    margin-top: 4rem;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/************************** Hero CSS ***************************/
+
+.hero {
+    background: url('images/banner/banner1.png') no-repeat center center/cover;
+    height: 100vh;
+    padding: 50px 0;
+}
+
+.hero_content {
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero_content * {
+    text-align: end;
+}
+
+.hero_content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+}
+
+.hero_content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.hero_content button {
+    color: #fff;
+    background: #f15b22;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/********************************** Watch CSS ******************************/
+
+.watch_info {
+    border-radius: 8px;
+    height: 300px;
+    padding: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: linear-gradient(
+            90deg,
+            #f15b22 0%,
+            rgba(241, 91, 34, 0) 100%
+        ),
+        url('images/watch.png');
+}
+
+.watch_info h3 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    width: 50%;
+}
+
+.watch_info button {
+    background: #fff;
+    color: #f15b22;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*************************** Footer CSS ****************************/
+
+.footer {
+    background: #151414;
+    color: #fff !important;
+    padding: 50px 0;
+}
+
+.footer .footer_left,
+.footer .footer_right {
+    width: 45%;
+}
+
+.footer .footer_right input {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer .footer_right button {
+    background: #fff;
+    color: #f15b22;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
